@@ -1,0 +1,20 @@
+{% include 'sitio/cabezera.html' %}
+
+    <div class="row mb-5">
+        {% for libro in lista_libros %}
+        <div class="col-md-2 mt-2">
+            <div class="card">
+                <img height="260" class="card-img-top" src="/img/{{libro[2]}} " alt="Title">
+                <div class="card-body">
+                    
+                    <p class="card-text">
+                        <a name="" id="" class="d-flex justify-content-center btn btn-primary" href="{{libro[3]}}" role="button">Descargar</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    <br>
+    </div>
+    <br>
+{% include 'sitio/pie.html' %}

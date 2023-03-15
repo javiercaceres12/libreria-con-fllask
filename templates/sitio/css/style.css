@@ -1,0 +1,18 @@
+.nav{
+    height: 40px;
+}
+
+.anclas{
+    font-family: 'Lilita One', cursive;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.anclas:hover{
+    font-family: 'Lilita One', cursive;
+    color: rgb(117, 18, 117);
+}
+
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
